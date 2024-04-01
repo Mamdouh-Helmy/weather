@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <!-- Render All  Elements Normally-->
+    <link rel="stylesheet" href="css/normallize.css" />
+    <!-- Font Awesome library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Ubuntu:ital@1&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="section">
+        <div class="box-1">
+            <div class="input">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Enter Your Location">
+            </div>
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+        <div class="weather-box">
+            <img src="" alt="image">
+            <p class="temp"></p>
+            <p class="name"></p>
+            <p class="desc"></p>
+        </div>
+
+        <div class="wather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="all-wather-details"></div>
+
+        <div class="location">
+            <h1>Write Location!</h1>
+            <button>Enter</button>
+        </div>
+
+    </div>
+
+    <div class="ont-found">
+        <img src="images/ERROR 404.gif" alt="">
+        <p>Oops! Invalid Location 🌏</p>
+        <button>Enter</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
