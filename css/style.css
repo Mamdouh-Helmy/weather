@@ -35,7 +35,7 @@ ul{
 
 .section{
     position: relative;
-    margin: 50px auto 0;
+    margin: 50px auto;
     background: linear-gradient(#7886d5 , #79bcb9);
     width: 50%;
     padding: 20px;
